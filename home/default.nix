@@ -8,7 +8,6 @@ in
   ];
 
   home-manager = {
-    # useGlobalPkgs = true;
     users = {
       ${name} = import ./home.nix;
     };

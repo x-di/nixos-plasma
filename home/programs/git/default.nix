@@ -1,8 +1,12 @@
 { ... }:
+let
+  userName = "x-di";
+  userEmail = "dimasimam75@gmail.com";
+in
 {
   programs.git = {
     enable = true;
-    userName = "x-di";
-    userEmail = "dimasimam75@gmail.com";
+    userName = "${userName}";
+    userEmail = "${userEmail}";
   };
 }

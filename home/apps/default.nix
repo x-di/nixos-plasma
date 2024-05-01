@@ -4,11 +4,11 @@
     brave
     bun
     dia
+    fastfetch
     gnome.gnome-keyring
     go
     haruna
     htop
-    neofetch
     nixpkgs-fmt
     nodejs_20
     onlyoffice-bin_latest

@@ -2,7 +2,7 @@
 {
   programs.fish = {
     enable = true;
-    shellAliases = {
+    shellAbbrs = {
       # ".." = "cd ..";
       nrs = "sudo nixos-rebuild switch";
       ls = "eza -al --color=always --group-directories-first"; # my preferred listing
@@ -19,6 +19,11 @@
       df = "df -h";
       free = "free -m";
       cat = "bat";
+      gst = "git status";
+      gco = "git checkout";
+      gcm = "git commit -m";
+      gpull = "git pull";
+      gpush = "git push";
     };
     interactiveShellInit = ''
       			set fish_greeting # Disable greeting

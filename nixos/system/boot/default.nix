@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs,... }:
 {
   boot = {
     loader = {
@@ -9,5 +9,6 @@
         canTouchEfiVariables = true;
       };
     };
+    kernelPackages = pkgs.linuxPackages_xanmod_latest;
   };
 }

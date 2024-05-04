@@ -7,11 +7,9 @@
     fastfetch
     gnome.gnome-keyring
     go
-    gopls
     haruna
     helix
     htop
-    nixpkgs-fmt
     nodejs_20
     onlyoffice-bin_latest
     p7zip

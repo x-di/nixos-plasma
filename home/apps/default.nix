@@ -1,14 +1,14 @@
 { pkgs, ... }:
 {
   home.packages = with pkgs; [
-    brave
+    #brave
     bun
     dia
     fastfetch
     gnome.gnome-keyring
     go
     haruna
-    helix
+    #helix
     htop
     nodejs_20
     onlyoffice-bin_latest

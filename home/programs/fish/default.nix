@@ -24,6 +24,8 @@
       gcm = "git commit -m";
       gpull = "git pull";
       gpush = "git push";
+      nd = "mkdir -p";
+      nf = "touch";
     };
     interactiveShellInit = ''
       			set fish_greeting # Disable greeting

@@ -10,6 +10,7 @@
     haruna
     #helix
     htop
+    libdbusmenu
     nodejs_20
     onlyoffice-bin_latest
     p7zip

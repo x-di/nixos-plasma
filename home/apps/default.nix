@@ -11,6 +11,7 @@
     #helix
     htop
     libdbusmenu
+    #libreoffice-qt-fresh
     nodejs_20
     onlyoffice-bin_latest
     p7zip
@@ -22,5 +23,6 @@
     telegram-desktop
     thunderbird
     vscode-fhs
+    yt-dlp
   ];
 }

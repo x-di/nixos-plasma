@@ -26,6 +26,9 @@
       gpush = "git push";
       nd = "mkdir -p";
       nf = "touch";
+      yt = "yt-dlp";
+      ytl = "yt-dlp -f 'bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720][ext=mp4]'";
+      yth = "yt-dlp -f 'bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080][ext=mp4]'";
     };
     interactiveShellInit = ''
       			set fish_greeting # Disable greeting

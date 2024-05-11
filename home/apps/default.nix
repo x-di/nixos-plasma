@@ -12,7 +12,8 @@
     htop
     libdbusmenu
     #libreoffice-qt-fresh
-    nodejs_20
+    #nodejs_20
+    nodejs_22
     onlyoffice-bin_latest
     p7zip
     php

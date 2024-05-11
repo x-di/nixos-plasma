@@ -7,6 +7,7 @@
     ./pipewire
     ./postgresql
     ./printing
+    ./thermald
     ./xserver
   ];
 }

@@ -3,9 +3,9 @@
   programs.kitty = {
     enable = true;
     shellIntegration.enableFishIntegration = true;
-    theme = "One Dark";
+    theme = "Gruvbox Dark";
     font = {
-      name = "Cascadia Code";
+      name = "Liga SFMono Nerd Font";
       size = 14;
     };
     extraConfig = ''

@@ -3,10 +3,13 @@
   home.packages = with pkgs; [
     #brave
     bun
+    clinfo
     dia
     fastfetch
+    glxinfo
     gnome.gnome-keyring
     go
+    #gruvbox-plus-icons
     haruna
     #helix
     htop
@@ -24,6 +27,8 @@
     telegram-desktop
     thunderbird
     vscode-fhs
+    vulkan-tools
     yt-dlp
+    #zed-editor
   ];
 }

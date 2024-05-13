@@ -4,7 +4,8 @@
     #brave
     bun
     clinfo
-    dia
+    #dia
+    drawio
     fastfetch
     glxinfo
     gnome.gnome-keyring

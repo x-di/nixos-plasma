@@ -26,9 +26,18 @@
       gpush = "git push";
       nd = "mkdir -p";
       nf = "touch";
+
+      #yt-dlp
       yt = "yt-dlp";
       ytl = "yt-dlp -f 'bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720][ext=mp4]'";
+      ytlp = "yt-dlp -o '%(playlist_index)s - %(title)s.%(ext)s' -f 'bestvideo[height<=720]+bestaudio/best[height<=720]' --merge-output-format mp4";
+      ytlpn = "yt-dlp -o '%(playlist_index)s - %(title)s.%(ext)s' -f 'bestvideo[height<=720]+bestaudio/best[height<=720]' --merge-output-format mp4 --playlist-start";
       yth = "yt-dlp -f 'bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080][ext=mp4]'";
+      ythp = "yt-dlp -o '%(playlist_index)s - %(title)s.%(ext)s' -f 'bestvideo[height<=1080]+bestaudio/best[height<=1080]' --merge-output-format mp4";
+      ythpn = "yt-dlp -o '%(playlist_index)s - %(title)s.%(ext)s' -f 'bestvideo[height<=1080]+bestaudio/best[height<=1080]' --merge-output-format mp4 --playlist-start";
+
+      #nix-shell
+      ns = "nix-shell --command fish -p";
     };
     interactiveShellInit = ''
       			set fish_greeting # Disable greeting

@@ -9,9 +9,9 @@ in
     httpd = {
       user = "${user}";
       group = "${group}";
-      enable = true;
+      enable = false;
       package = pkgs.apacheHttpd;
-      enablePHP = true;
+      enablePHP = false;
       phpPackage = pkgs.php;
       virtualHosts.localhost = {
         documentRoot = "${documentRoot}";

@@ -1,6 +1,7 @@
 { ... }:
 {
   imports = [
+    ./aria2
     ./bat
     ./eza
     ./fish

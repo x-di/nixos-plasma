@@ -1,7 +1,7 @@
 { ... }:
 {
   programs.kitty = {
-    enable = true;
+    enable = false;
     shellIntegration.enableFishIntegration = true;
     theme = "Gruvbox Dark";
     font = {

@@ -19,6 +19,7 @@
     #libreoffice-qt-fresh
     #nodejs_20 #nix-shell -p nodejs --command fish
     #nodejs_22
+    obs-studio
     onlyoffice-bin_latest
     p7zip
     #php #nix-shell -p php php82Packages.composer --command fish

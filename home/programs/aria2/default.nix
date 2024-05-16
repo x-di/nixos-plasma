@@ -1,7 +1,7 @@
 { ... }:
 {
   programs.aria2 = {
-    enable = false;
+    enable = true;
     settings = {
       listen-port = 60000;
       dht-listen-port = 60000;

@@ -12,6 +12,7 @@
     ./micro
     ./mpv
     ./starship
+    ./yt-dlp
     ./zoxide
   ];
 }

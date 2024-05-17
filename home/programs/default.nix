@@ -11,6 +11,7 @@
     ./kitty
     ./micro
     ./mpv
+    ./nixvim
     ./starship
     ./yt-dlp
     ./zoxide

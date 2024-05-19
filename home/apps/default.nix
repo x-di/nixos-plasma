@@ -10,6 +10,7 @@
     htop
     kdePackages.kdeplasma-addons
     libdbusmenu
+    nix-search-cli
     obs-studio
     onlyoffice-bin_latest
     p7zip

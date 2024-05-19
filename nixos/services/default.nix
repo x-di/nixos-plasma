@@ -2,6 +2,7 @@
 {
   imports = [
     ./desktop-environment
+    ./earlyoom
     ./httpd
     ./mariadb
     ./mongodb

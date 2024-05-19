@@ -6,5 +6,8 @@
         enable = false;
       };
     };
+    oomd = {
+      enable = false; # Switch to earlyoom.
+    };
   };
 }

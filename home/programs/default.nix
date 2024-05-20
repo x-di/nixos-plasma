@@ -6,6 +6,7 @@
     ./eza
     ./fish
     ./fzf
+    ./gh
     ./git
     ./kdeconnect
     ./kitty

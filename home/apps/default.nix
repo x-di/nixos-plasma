@@ -7,7 +7,6 @@
     glxinfo
     gnome.gnome-keyring
     haruna
-    htop
     kdePackages.kdeplasma-addons
     libdbusmenu
     nix-search-cli

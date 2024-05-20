@@ -3,6 +3,7 @@
   imports = [
     ./aria2
     ./bat
+    ./bottom
     ./eza
     ./fish
     ./fzf
